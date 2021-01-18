@@ -1,0 +1,193 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- google font CSS -->
+    <!-- stylesheet CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+    <title>Tanzid Work</title>
+</head>
+<body>
+    <div class="full-box-row">
+        <div class="container">
+            <div class="row">
+                <div class="inner-full-box col-md-12">
+                    <!-- Reset Button Area -->
+                    <div class="reset-button">
+                        <button><i class="fa fa-ban" aria-hidden="true"></i> Reset</button>
+                    </div>
+
+                    <!-- Employee Info Area -->
+                    <div class="employee-title">
+                        <h3><i class="fa fa-user" aria-hidden="true"></i> Employee Info</h3>
+                    </div>
+                    <div class="employee-info">
+                        <div class="col-md-6">
+                            <table class="left-table-employee">
+                                <tr>
+                                    <td class="table-level-title">Employee Name: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="Miraj Hossain"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Branch Name: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="Chattogram Branch"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Department Name: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="Information technology"></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="right-table-employee">
+                                <tr>
+                                    <td class="table-level-title">Employee Type: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="Permanent"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Supervisor Name: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="Buddha Dev Sarker"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Supervisor Designation: </td>
+                                    <td class="table-input"><input type="text" id="employeename" name="ename" value="" placeholder="SAVP & CTO"></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+
+                    <!-- Visitor Details Area -->
+                    <div class="Visitor-title">
+                        <h3><i class="fa fa-plane" aria-hidden="true"></i> Visitor Details</h3>
+                    </div>
+                    <div class="Visitor-Details">
+                        <div class="col-md-6">
+                            <table class="left-table-visitor">
+                                <tr>
+                                    <td class="table-level-title">Date of Visit: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="date" id="date-visit" name="" placeholder="Put the date of your visit" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Next Visit Date: </td>
+                                    <td class="table-input"><input type="date" id="next-date-visit" name="" placeholder="Next Visit Date" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Visit Type: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input">
+                                        <select id="visit-type" name="" required>
+                                            <option value="default">Select Visit Type</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Status: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input">
+                                        <select id="Status-type" name="" required>
+                                            <option value="default">Select Visit Status</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Lead / Conversion: </td>
+                                    <td class="table-input"><input type="text" id="lead=conversion" name="" value="" placeholder="Lead/Conversion"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Discussed Product: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input">
+                                        <select id="Discussed-Product" name="" required>
+                                            <option value="default">Select Discussed Product</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Deposit Amount: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="text" id="Deposit-Amount" name="" value="" placeholder="Deposit Amount" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Comments: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><textarea type="text" id="Comments" name="" value="" placeholder="Write short Comments" required></textarea></td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="col-md-6">
+                            <table class="right-table-visitor">
+                                <tr>
+                                    <td class="table-level-title">Type of client: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input">
+                                        <select id="Client-type" name="" required>
+                                            <option value="default">Select Type of client</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Business Type: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input">
+                                        <select id="Business-type" name="" required>
+                                            <option value="default">Select Client Busniess Type</option>
+                                            <option value="1">1</option>
+                                            <option value="2">2</option>
+                                            <option value="3">3</option>
+                                        </select>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Client Name: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="text" id="client-name" name="" placeholder="Business / Individual Client Name" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Client Organization: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="text" id="corganization" name="" placeholder="Client Organization" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Conserned Person: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="text" id="c-person" name="" value="" placeholder="Person name" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Client's Designation: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="text" id="designation" name="" value="" placeholder="Designation" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Telephone No: </td>
+                                    <td class="table-input"><input type="tel" id="telephone" name="" value="" placeholder="Telephone No"></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Mobile No: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><input type="tel" id="Mobile" name="" value="" placeholder="Mobile No" required></td>
+                                </tr>
+                                <tr>
+                                    <td class="table-level-title">Address: <i class="fa fa-star myset" aria-hidden="true"></i></td>
+                                    <td class="table-input"><textarea type="text" id="Address" name="" value="" placeholder="Full Address" required></textarea></td>
+                                </tr>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</body>
+</html>

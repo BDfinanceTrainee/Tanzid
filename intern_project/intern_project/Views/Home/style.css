@@ -1,0 +1,104 @@
+*{
+  padding:0;
+  margin: 0;
+}
+
+.col-md-6{
+  float: left;
+}
+
+.full-box-row{
+  margin: 5px;
+}
+
+.inner-full-box{
+  padding: 0px !important;
+  box-shadow:0px 0px 8px #a7a7a7;
+  border-radius: 5px;
+}
+
+.reset-button{
+  padding:10px;
+  background-color: #DEF0D8;
+  overflow: hidden;
+}
+
+.reset-button button{
+  font-size: 12px;
+  color: #666;
+  float: right;
+  padding: 2px 5px !important;
+  box-shadow:0px 0px 8px #a7a7a7;
+  border-radius: 5px;
+  border: 0px;
+}
+
+
+.employee-info {
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0px 0px 8px #a7a7a7;
+    margin: 15px 15px 0px 15px;
+    border-radius: 5px;
+}
+.employee-title {
+    position: relative;
+    left: 35px;
+    top: 25px;
+    width: fit-content;
+}
+
+.employee-title h3{
+  font-size: 18px;
+}
+
+.left-table-employee , .right-table-employee{
+  margin: 0 auto;
+  width: 100%;
+}
+
+.left-table-visitor , .right-table-visitor{
+  margin: 0 auto;
+  width: 100%;
+}
+
+td{
+  padding: 5px 0px;
+}
+
+.table-level-title{
+  padding-right: 20px;
+  text-align: right;
+}
+
+input , select , textarea {
+    border: 1px solid #a7a7a7;
+    border-radius: 5px;
+    padding: 0px 7px;
+    width: -webkit-fill-available;
+}
+
+.Visitor-Details {
+    overflow: hidden;
+    padding: 15px;
+    box-shadow: 0px 0px 8px #a7a7a7;
+    margin: 15px;
+    border-radius: 5px;
+}
+.Visitor-title{
+    position: relative;
+    left: 35px;
+    top: 25px;
+    width: fit-content;
+}
+
+.Visitor-title h3{
+  font-size: 18px;
+}
+
+.myset {
+    font-size: 5px !important;
+    color: red;
+    position: relative;
+    top: -8px;
+}
