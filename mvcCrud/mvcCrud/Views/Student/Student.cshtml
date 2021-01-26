@@ -1,0 +1,53 @@
+﻿@model mvcCrud.Context.tbl_Student
+@{
+    ViewBag.Title = "Student";
+}
+
+<style>
+    .error{
+        color:red;
+    }
+    </style>
+<style>
+    .from-group{
+        margin-top:20px;
+    }
+</style>
+
+
+@using (Html.BeginForm("AddStudent", "Student", FormMethod.Post))
+{
+    <div class="container">
+        <div class="from-group">
+            <label>Name</label>
+            @Html.ValidationMessageFor(x => x.Name,"", new { @class = "error" })
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+        </div>
+        <div class="from-group">
+            <label>Fname</label>
+            @Html.ValidationMessageFor(x => x.Fname, "", new { @class = "error" })
+            @Html.TextBoxFor(x => x.Fname, new { @class = "form-control" })
+        </div>
+        <div class="from-group">
+            <label>Email</label>
+            @Html.ValidationMessageFor(x => x.Email, "", new { @class = "error" })
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+        </div>
+        <div class="from-group">
+            <label>Mobile</label>
+            @Html.ValidationMessageFor(x => x.Mobile, "", new { @class = "error" })
+            @Html.TextBoxFor(x => x.Mobile, new { @class = "form-control" })
+        </div>
+        <div class="from-group">
+            <label>Description</label>
+            @Html.ValidationMessageFor(x => x.Description, "", new { @class = "error" })
+            @Html.TextAreaFor(x => x.Description, new { @class = "form-control", @rows = "10" })
+        </div>
+        <div class="from-group">
+           <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="reset" class="btn btn-danger">Cancel</button>
+        </div>
+
+        
+     </div>
+}   
