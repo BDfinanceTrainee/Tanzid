@@ -19,6 +19,7 @@
 {
     <div class="container">
         <div class="from-group">
+            @Html.HiddenFor(x=>x.ID)
             <label>Name</label>
             @Html.ValidationMessageFor(x => x.Name,"", new { @class = "error" })
             @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
